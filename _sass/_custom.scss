@@ -282,3 +282,53 @@ tbody, td, tfoot, th, thead, tr {
 	color: rgba(255,255,255);
 }
 
+
+
+/* blanco */
+
+
+.bg-dark {
+	--bs-bg-opacity: 1;
+	background-color: rgba(174, 174, 174, 0.86) !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: rgb(0, 0, 0);
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show > .nav-link {
+	color: #000;
+}
+
+
+.text-white {
+	--bs-text-opacity: 1;
+	color: black;
+}
+
+.carousel-item-title {
+	background-color: rgba(255, 255, 255, 0.72);
+}
+
+.display-4 {
+	font-size: calc(1.475rem + 5.1vw) !important;
+	font-weight: 300 !important;
+	background-color: rgba(255, 255, 255, 0.35) !important;
+}
+
+
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #f8f8f8;
+	background-clip: border-box;
+	border-radius: 0px;
+	padding: 10px;
+	border-color: white;
+	border-top: 2px solid #73cbd5;
+}
+
+
+
