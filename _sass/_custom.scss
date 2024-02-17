@@ -104,8 +104,10 @@ p {
 
 .text-white {
 	--bs-text-opacity: 1;
-	color: black;
+	color: black!important;
 }
+
+
 
 
 /* timeline background */
