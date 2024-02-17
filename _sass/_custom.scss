@@ -29,15 +29,17 @@ a:hover.btn-outline-primary {
  
 */
 
-.btn-primary {
-    color: #000 !important;
-    background-color: #eaf449 !important;
-    border-color: transparent !important;
-    border-radius: 4rem !important;
-    text-transform: uppercase !important;
-    padding: 0.5rem;
-}
 
+
+
+.btn-primary {
+	color: #000 !important;
+	background-color: #90d2cf !important;
+	border-color: transparent !important;
+	border-radius: 4rem !important;
+	text-transform: uppercase !important;
+	padding: 0.5rem;
+}
 
 .bg-light {
     background-color: #cedee4 !important;
@@ -80,13 +82,14 @@ p {
 }
 
 #scroll-to-top {
-    color: #c4d006;
+	color: #90d2cf;
 }
 
+
 .text-dark {
-    background-color: #eaf449!important;
- 
+	background-color: #90d2cf !important;
 }
+
 
 .text-white {
     font-family: 'Roboto', sans-serif !important;
@@ -102,7 +105,7 @@ p {
 body {
     font-family: Roboto;
     font-size: 1.2em;
-    color: #005475;   
+  color: rgb(2,14,4); 
 
 /* patterns
   
@@ -125,10 +128,7 @@ background-size: 22px 22px;
     
     
 */    
-  
-
- 
-    
+     
 background-color: #fff;   
 
 opacity: 1;
@@ -142,18 +142,16 @@ background-size: 22px 22px;
 
 
 .card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-  background-color: #f8f8f8;   
-
-    background-clip: border-box;
-    border-radius: 0px;
-  /*   border: 1px solid;*/  
-    padding: 10px;
-   /*   box-shadow: 5px 5px #d3d3d3;*/  
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #f8f8f8;
+	background-clip: border-box;
+	border-radius: 0px;
+	padding: 10px;
+	border-color: white;
 }
 
 .img-thumbnail {
@@ -274,3 +272,9 @@ tbody, td, tfoot, th, thead, tr {
 ::selection {
   background:#7fcfdb;
 }
+
+.bg-dark {
+	--bs-bg-opacity: 1;
+	background-color: rgba(2, 36, 34, 0.6) !important;
+}
+
