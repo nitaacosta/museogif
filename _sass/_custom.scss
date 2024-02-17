@@ -54,9 +54,15 @@ a:hover.btn-outline-primary {
 
 
 .display-4 {
-    font-size: calc(1.475rem + 5.7vw)!important;
-    font-weight: 300!important;
+   font-size: calc(1.475rem + 5.1vw) !important;
+	font-weight: 300 !important;
+	background-color: rgba(255, 255, 255, 0.35) !important;
 }
+
+
+
+
+
 
 .h5, h5 {
     font-size: 2.25rem!important;
@@ -93,6 +99,12 @@ p {
 
 .text-white {
     font-family: 'Roboto', sans-serif !important;
+}
+
+
+.text-white {
+	--bs-text-opacity: 1;
+	color: black;
 }
 
 
@@ -152,7 +164,9 @@ background-size: 22px 22px;
 	border-radius: 0px;
 	padding: 10px;
 	border-color: white;
+	border-top: 2px solid #73cbd5;
 }
+
 
 .img-thumbnail {
     padding: .8rem;
@@ -275,22 +289,9 @@ tbody, td, tfoot, th, thead, tr {
 
 .bg-dark {
 	--bs-bg-opacity: 1;
-	background-color: rgba(2, 36, 34, 0.6) !important;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-	color: rgba(255,255,255);
-}
-
-
-
-/* blanco */
-
-
-.bg-dark {
-	--bs-bg-opacity: 1;
 	background-color: rgba(174, 174, 174, 0.86) !important;
 }
+
 .navbar-dark .navbar-nav .nav-link {
 	color: rgb(0, 0, 0);
 }
@@ -300,35 +301,14 @@ tbody, td, tfoot, th, thead, tr {
 }
 
 
-.text-white {
-	--bs-text-opacity: 1;
-	color: black;
-}
+
+
+
 
 .carousel-item-title {
 	background-color: rgba(255, 255, 255, 0.72);
 }
 
-.display-4 {
-	font-size: calc(1.475rem + 5.1vw) !important;
-	font-weight: 300 !important;
-	background-color: rgba(255, 255, 255, 0.35) !important;
-}
-
-
-.card {
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	min-width: 0;
-	word-wrap: break-word;
-	background-color: #f8f8f8;
-	background-clip: border-box;
-	border-radius: 0px;
-	padding: 10px;
-	border-color: white;
-	border-top: 2px solid #73cbd5;
-}
 
 
 
