@@ -137,19 +137,18 @@ background-size: 22px 22px;
       
 }  
 
-
 .card {
 	position: relative;
 	display: flex;
 	flex-direction: column;
 	min-width: 0;
 	word-wrap: break-word;
-	background-color: white;
+	background-color: #f8f8f8;
 	background-clip: border-box;
 	border-radius: 0px;
 	padding: 10px;
 	border-color: white;
-	border-top: 2px solid black;
+	border-top: 2px solid #000;
 }
 
 
@@ -274,7 +273,7 @@ tbody, td, tfoot, th, thead, tr {
 
 .bg-dark {
 	--bs-bg-opacity: 1;
-	background-color: rgba(174, 174, 174, 0.86) !important;
+	background-color: rgba(255, 255, 255, 0.7) !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
