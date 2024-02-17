@@ -92,8 +92,10 @@ a:hover.btn-outline-primary {
 */
 
 p {
-    font-family: 'Roboto', sans-serif !important;
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: bold !important;
 }
+
 
 #scroll-to-top {
 	color: #90d2cf;
@@ -282,10 +284,6 @@ tbody, td, tfoot, th, thead, tr {
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show > .nav-link {
 	color: #000;
 }
-
-
-
-
 
 
 .carousel-item-title {
