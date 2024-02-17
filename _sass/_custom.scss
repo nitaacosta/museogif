@@ -2,3 +2,272 @@
     Put your custom SCSS here! 
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+a:hover.btn-outline-primary {
+    background-color: white!important;
+    border-color: white!important;
+}
+
+
+.btn-outline-primary {
+    color: #0f6273!important;
+    border-color:#0f6273!important;
+}
+
+/* 
+  
+.btn-primary {
+    color: #000!important;
+    background-color: #eaf449!important;
+    border-color: transparent!important;
+    border-radius: 0!important;
+    text-transform: uppercase!important;
+}
+ 
+*/
+
+.btn-primary {
+    color: #000 !important;
+    background-color: #eaf449 !important;
+    border-color: transparent !important;
+    border-radius: 4rem !important;
+    text-transform: uppercase !important;
+    padding: 0.5rem;
+}
+
+
+.bg-light {
+    background-color: #cedee4 !important;
+    border-color: transparent!important;
+}
+
+.btn-success {
+    background-color: #0f6273!important;
+    border-color: #0f6273!important;
+}
+
+
+
+.display-4 {
+    font-size: calc(1.475rem + 5.7vw)!important;
+    font-weight: 300!important;
+}
+
+.h5, h5 {
+    font-size: 2.25rem!important;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: 700!important;
+    line-height: 1.2!important;
+    text-transform: uppercase!important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+
+/* 
+  
+.marker-cluster-small div {
+    background-color: rgb(210 0 255 52%) !important;
+}
+*/
+
+p {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+#scroll-to-top {
+    color: #c4d006;
+}
+
+.text-dark {
+    background-color: #eaf449!important;
+ 
+}
+
+.text-white {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+
+/* timeline background */
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg: rgb(255 255 255 / 5%)!important;
+}
+
+body {
+    font-family: Roboto;
+    font-size: 1.2em;
+    color: #005475;   
+
+/* patterns
+  
+background-color: #ffffff;
+opacity: 1;
+background-image:  radial-gradient(#c4e5ee 1.1px, transparent 1.1px), radial-gradient(#c4e5ee 1.1px, #ffffff 1.1px);
+background-size: 44px 44px;
+background-position: 0 0,22px 22px;
+ 
+background-color: #eeeeee;
+opacity: 0.8;
+background: radial-gradient(circle, transparent 20%, #eeeeee 20%, #eeeeee 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #eeeeee 20%, #eeeeee 80%, transparent 80%, transparent) 22.5px 22.5px, linear-gradient(#ffffff 1.8px, transparent 1.8px) 0 -0.9px, linear-gradient(90deg, #ffffff 1.8px, #eeeeee 1.8px) -0.9px 0;
+background-size: 45px 45px, 45px 45px, 22.5px 22.5px, 22.5px 22.5px;
+ 
+cuadricula:    
+background-color: #fafafa;
+opacity: 1;
+background-image:  linear-gradient(#ffffff 1.1px, transparent 1.1px), linear-gradient(to right, #ffffff 1.1px, #eeeeee 1.1px);
+background-size: 22px 22px;   
+    
+    
+*/    
+  
+
+ 
+    
+    
+background-color: #efefef;
+opacity: 1;
+background-size: 22px 22px;
+background-image:  repeating-linear-gradient(0deg, #ffffff, #ffffff 1.1px, #efefef 1.1px, #efefef);
+    
+ 
+}  
+
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px #d3d3d3;
+}
+
+.img-thumbnail {
+    padding: .8rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0px;
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded {
+    border-radius: .0rem!important;
+}
+
+
+.my-4 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+    /* background-color: white; */
+    /* border: 1px solid; */
+    padding: 10px;
+    /* box-shadow: 5px 5px #d3d3d3; */
+}
+
+
+.bg-light {
+    background-color: #cedee4 !important;
+    border-color: transparent !important;
+    box-shadow: 5px 5px #d3d3d3;
+}
+
+
+
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #cedee4!important;
+}
+
+/* texto banner */
+.display-4 {
+    font-size: calc(1.475rem + 5.1vw) !important;
+    font-weight: 300 !important;
+    background-color: rgba(0, 0, 0, 0.35) !important;
+}
+
+
+
+/* card mapa */
+.leaflet-popup-content-wrapper {
+    padding: 1px;
+    text-align: left;
+    border-radius: 0px!important;
+    box-shadow: 3px 3px rgba(0,0,0,0.4)!important;
+
+}
+  
+
+.leaflet-container a.leaflet-popup-close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 28px 0 0;
+    border: none;
+    text-align: center;
+    width: 18px;
+    height: 14px;
+    font: 25px/14px Tahoma, Verdana, sans-serif;
+    color: #0078A8;
+    text-decoration: none;
+    font-weight: bold;
+    background: transparent;
+}
+
+.leaflet-container a {
+    color: #0078A8;
+    font-family: 'Roboto'sans-serif;
+    border-color: #0078A8;
+    border-radius: 0px;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background: rgba(255,255,255,0.9)!important;
+    color: #333;
+    box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+}
+
+.mapthumb {
+    height: 166px;
+}
+
+.leaflet-popup-content p {
+    margin: 18px 0;
+    font-size: 0.9rem;
+}
+
+
+.btn-dark {
+    color: #fff;
+    background-color: #0078A8;
+    border-color: #0078A8;
+    border-radius: 0px;
+}
+.btn-outline-dark {
+    color: #0078A8;
+    border-color: #0078A8;
+    border-radius: 0px;
+}
+
+
+/* selected text */
+::-moz-selection { /* Code for Firefox */
+  background: #7fcfdb;
+}
+
+::selection {
+  background:#7fcfdb;
+}
