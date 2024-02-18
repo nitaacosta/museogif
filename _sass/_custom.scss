@@ -326,3 +326,9 @@ tbody, td, tfoot, th, thead, tr {
 	background-color: #0d6efd;
 }
 
+
+.breadcrumb-item + .breadcrumb-item {
+	padding-left: .5rem;
+	font-family: Roboto !important;
+}
+
