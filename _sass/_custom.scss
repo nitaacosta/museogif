@@ -75,10 +75,12 @@ a:hover.btn-outline-primary {
 
 #footer-nav .nav-link:hover {
 	color: white;
-	background: #ffe400 !important;
+	background: #808080 !important;
 }
 
-
+a.nav-link.text-light.active{
+	background: #808080 !important;
+}
 
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -316,4 +318,9 @@ tbody, td, tfoot, th, thead, tr {
 	border-radius: 0;
 	background-color: #acacac;
 	
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	color: #fff;
+	background-color: #0d6efd;
 }
