@@ -44,6 +44,8 @@ a:hover.btn-outline-primary {
 }
 
 
+
+
 .card {
 	position: relative;
 	display: flex;
@@ -109,6 +111,9 @@ p {
 
 .text-dark {
 	background-color: #fff !important;
+	--bs-text-opacity: 1;
+	color: rgba(var(--bs-dark-rgb),var(--bs-text-opacity)) !important;
+	font-family: "Anton",sans-serif !important;
 }
 
 
