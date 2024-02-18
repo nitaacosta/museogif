@@ -27,7 +27,7 @@ a:hover.btn-outline-primary {
   
 .btn-primary {
     color: #000!important;
-    background-color: #eaf449!important;
+    background-color: #ffe400!important;
     border-color: transparent!important;
     border-radius: 0!important;
     text-transform: uppercase!important;
@@ -81,6 +81,7 @@ a:hover.btn-outline-primary {
   	font-weight: 400;
  	font-style: normal;
 	letter-spacing: 3px;
+	color: #ffe400;
 	
 }
 
@@ -274,7 +275,7 @@ tbody, td, tfoot, th, thead, tr {
 
 .bg-dark {
 	--bs-bg-opacity: 1;
-	background-color: rgba(255, 255, 255, 0.7) !important;
+	background-color: rgba(227, 227, 227, 0.7) !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
