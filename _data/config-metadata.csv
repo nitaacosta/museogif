@@ -1,6 +1,7 @@
 field,display_name,browse_link,external_link
 title,Título,
-creator,Autor(a) Original,
+creator,Autor(a) original,
+autor,Autor(a) gif,
 date,Fecha de creación,
 description,Descripción,
 subject,Tema,true
