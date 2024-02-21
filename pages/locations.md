@@ -8,7 +8,7 @@ permalink: /locations.html
 cloud-fields: site.data.theme.locations-fields
 ---
 
-## Browse Locations
+## Búsqueda por orígen
 
-Use this word cloud visualization to browse locations.
-Word size is determined by frequency and all words link to a corresponding collection search.
+Utilice esta visualización de nube de palabras para buscar el lugar de orígen de las piezas o sus autores.
+El tamaño de las palabras está determinado por la frecuencia y todas las palabras enlazan a una búsqueda correspondiente en la colección.
