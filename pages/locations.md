@@ -8,7 +8,7 @@ permalink: /locations.html
 cloud-fields: site.data.theme.locations-fields
 ---
 
-## Búsqueda por orígen
+## Búsqueda por origen
 
-Utilice esta visualización de nube de palabras para buscar el lugar de orígen de las piezas o sus autores.
+Utilice esta visualización de nube de palabras para buscar el lugar de origen de las piezas o sus autores.
 El tamaño de las palabras está determinado por la frecuencia y todas las palabras enlazan a una búsqueda correspondiente en la colección.
