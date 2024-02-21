@@ -10,4 +10,4 @@ cloud-fields: site.data.theme.subjects-fields
 
 ## Búsqueda por temas
 
-Utilice esta visualización de nube de palabras para buscar términos y temas. El tamaño de las palabras está determinado por su frecuencia y todas las palabras enlazan a una búsqueda en la colección.
+Utilice esta visualización de nube de palabras para buscar términos y temas. El tamaño de las palabras está determinado por su frecuencia y todas las palabras enlazan a una búsqueda correspondiente en la colección.
